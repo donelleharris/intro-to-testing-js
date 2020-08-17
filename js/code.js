@@ -2,7 +2,7 @@
 const helloWorld = function () {
     return "Hello, World!";
 };
-function sayHello(input){
+const sayHello = function (input){
     // if (input === "Alex"){
     //     return "Hello, Alex!"
     // } else if (input === "Pat") {
@@ -13,3 +13,6 @@ function sayHello(input){
         return "Hello, World!"
     } else {return "Hello, " + input + "!"}
 };
+const isFive = function(input){
+    return Number(input) === 5
+}

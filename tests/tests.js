@@ -51,3 +51,17 @@ describe('sayHello', function () {
         expect(sayHello(null)).toBe("Hello, null!");
     });
 });
+describe('isFive', function (){
+    it('should be a defined function', function () {
+        expect(typeof isFive).toBe('function');
+    });
+    it('should return boolean',function () {
+        expect(isFive(5)).toBeTruthy();
+    });
+    it('should return true when executed', function () {
+        expect(isFive(5)).toBe(true);
+    });
+    it('should return true when passed the value "5"', function () {
+        expect(isFive("5")).toBe(true);
+    });
+});
