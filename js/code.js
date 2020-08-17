@@ -16,3 +16,6 @@ const sayHello = function (input){
 const isFive = function(input){
     return Number(input) === 5
 }
+const isEven = function(input){
+    return input % 2 === 0
+}
