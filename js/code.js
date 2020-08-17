@@ -9,5 +9,7 @@ function sayHello(input){
     //     return "Hello, Pat!"
     // }
     // else {return "Hello, Jane!";}
-    return "Hello, " + input + "!"
+    if(typeof input === 'boolean') {
+        return "Hello, World!"
+    } else {return "Hello, " + input + "!"}
 };
