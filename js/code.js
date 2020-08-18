@@ -19,3 +19,10 @@ const isFive = function(input){
 const isEven = function(input){
     return input % 2 === 0
 }
+const isVowel = function (input){
+    let vowel = "AEIOUaeiou";
+    if(input === ''){
+        return false;
+    }
+    return (vowel.includes(input));
+}
